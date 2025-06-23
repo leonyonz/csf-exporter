@@ -1,5 +1,5 @@
 #!/bin/bash
-wget ""
+wget "https://raw.githubusercontent.com/leonyonz/csf-exporter/refs/heads/master/var.txt"
 # Read variable names from var.txt and find their values in CSF config
 while IFS= read -r var_name; do
     # Skip empty lines and comments
